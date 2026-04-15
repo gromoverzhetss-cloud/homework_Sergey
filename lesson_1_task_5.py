@@ -1,14 +1,14 @@
-def print_num(num):
-    print(num)
-
-print_num(8)
-print_num(8)
-print_num(0)
-print_num(0)
-print_num(5)
-print_num(5)
-print_num(5)
-print_num(3)
-print_num(5)
-print_num(3)
-print_num(5)
+def nam():    
+    print(8, end='')
+    print(8, end='')
+    print(0, end='')
+    print(0, end='')
+    print(5, end='')
+    print(5, end='')
+    print(5, end='')
+    print(3, end='')
+    print(5, end='')
+    print(3, end='')
+    print(5, end='')
+    
+nam()
