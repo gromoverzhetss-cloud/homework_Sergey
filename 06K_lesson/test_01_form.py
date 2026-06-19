@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def test_form():
-    driver = webdriver.Chrome()
+    driver = webdriver.Edge()
     driver.maximize_window()
     driver.get(
         "https://bonigarcia.dev/selenium-webdriver-java/data-types.html")
