@@ -8,7 +8,7 @@ def test_calc():
     driver = webdriver.Chrome()
     url = "https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html"
     driver.get(url)
-
+    wait = WebDriverWait(10)
     spun = driver.find_element(By.CSS_SELECTOR, "#delay")
     spun.clear()
     spun.send_keys("45")
@@ -16,7 +16,7 @@ def test_calc():
     buttons = ["7", "+", "8", "="]
     for button in buttons:
         xpath = f"//span[text()='{button}']"
-        driver.find_element(By.XPATH, xpath).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH, xpath))).click()
 
     result = WebDriverWait(driver, 45).until(
             EC.text_to_be_present_in_element(
