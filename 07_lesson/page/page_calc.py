@@ -15,9 +15,8 @@ class CalculatorPage:
 
     
     def open(self):
-        self.driver.get(
-            "https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html"
-            )
+        self.driver.get(self.url)
+           
     
     def set_delay(self):
         delay_input = self.wait.until(EC.presence_of_element_located(
