@@ -22,4 +22,8 @@ def test_shop(driver):
     shop.continue_button()
     shop.total_label()
     shop.total_result()
+<<<<<<< HEAD
     assert shop.total_result() == "Total: $58.29"
+=======
+    assert shop.total_result() == "Total: $58.29"
+>>>>>>> 625f829f11c67172a6cd3cde8da919651f8098b4

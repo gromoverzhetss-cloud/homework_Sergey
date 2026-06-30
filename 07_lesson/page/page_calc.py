@@ -14,8 +14,14 @@ class CalculatorPage:
         self.wait = WebDriverWait(self.driver, 45)
 
     
+
     def open(self):self.driver.get(self.url)
         
+           
+
+
+    def open(self):
+        self.driver.get(self.url)
            
 
     
@@ -37,4 +43,7 @@ class CalculatorPage:
     def get_result(self):
         self.wait.until(EC.text_to_be_present_in_element(self.RESULT_SCREEN, "15"))
         result_element = self.driver.find_element(*self.RESULT_SCREEN)
+
+        return result_element.text
+
         return result_element.text

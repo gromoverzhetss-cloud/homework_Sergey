@@ -97,4 +97,6 @@ class Your_Cart:
               self.TOTAL, "Total: $58.29"))
          result_total_label = self.driver.find_element(*self.TOTAL)
          return result_total_label.text
+
          
+
