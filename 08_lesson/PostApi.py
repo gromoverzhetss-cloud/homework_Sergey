@@ -74,7 +74,7 @@ class ProjectsAPI:
         new_project = {"title": new_title}
         
         resp = requests.put(
-            self.url + f'/api-v2/projects/{project_id}', 
+            self.http + f'/api-v2/projects/{project_id}', 
             json=new_project, 
             headers=my_headers
         )
