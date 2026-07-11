@@ -1,4 +1,0 @@
-1. Запрос на создание:
-вместо метода POST, был поставлен PUT.
-2. В функции "Обновить проект" неправильно указан основной url(вместо https://ru.yougile.com, стоит https://ru.youile.com)
-3. В функции  get_progect_id, неправильно указан url для запроса(вместо api-v2/projects/id, api-v2/projects)
