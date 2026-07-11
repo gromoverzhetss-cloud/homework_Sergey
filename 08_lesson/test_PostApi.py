@@ -1,71 +1,86 @@
-from PostApi import ProjectsAPI
+import time
+import pytest
 from dotenv import load_dotenv
 import os
-import time  
-import pytest
+from PostApi import ProjectsAPI 
 
 load_dotenv()
 
-api_url = os.getenv("API_URL")
-login = os.getenv("LOGIN")
-password = os.getenv("PASSWORD")
-id = os.getenv("ID")
-
-
-api = ProjectsAPI(api_url, login, password)
-
-@pytest.mark.positive_test
-def test_positive_create_project():
-    title = f"Times {int(time.time())}"
-    project_id = api.positive_create_project(title)  
-    assert project_id.status_code == 200
-    project = api.get_project_id(project_id)
-    assert project["title"] == title
-
-@pytest.mark.negative_test
-def test_negative_create_project():
-    title = f"Times {int(time.time())}"
-    project_id = api.negative_create_project(title)  
-    assert project_id.status_code == 404
-    project = api.get_project_id(project_id)
-    assert project["title"] == title
-
-
-@pytest.mark.positive_test
-def test_positive_update_project():
-    original_title = f"{int(time.time())}"
-    project_id = api.positive_create_project(original_title)
-    assert updated_id.status_code == 200
-    new_title = "New progect"
-    updated_id = api.positive_update_project(project_id, new_title)
-
-@pytest.mark.negative_test
-def test_negative_update_project():
-    original_title = f"{int(time.time())}"
-    project_id = api.positive_create_project(original_title)
-    assert updated_id.status_code == 404
-    new_title = "New progect"
-    updated_id = api.negative_update_project(project_id, new_title)  
+@pytest.fixture
+def api():
+  
+    url = os.getenv("API_URL")
+    login = os.getenv("LOGIN")
+    password = os.getenv("PASSWORD")
+    api_key = os.getenv("KEY")
     
-    assert updated_id == project_id
+        
+    return ProjectsAPI(url, login, password, api_key)
 
-@pytest.mark.positive_test
-def test_positive_get_progect_id():
-    login = os.getenv("login")
-    password = os.getenv("password")
-    api.get_keys_list(login, password)
-    found_project = api.positive_get_project_id(id)
-    assert found_project.status_code == 200
-    assert found_project 
+@pytest.fixture
+def created_project_id(api):
 
-@pytest.mark.negative_test
-def test_negative_get_progect_id():
-    login = os.getenv("login")
-    password = os.getenv("password")
-    api.get_keys_list(login, password)
-    found_project = api.negative_get_project_id(id)
-    assert found_project.status_code == 404
-    assert found_project   
+    title = f"Test Project {int(time.time())}"
+    pid = api.positive_create_project(title)
+    yield pid
+  
+
+
+
+def test_positive_create_project(api):
+    title = f"Times {int(time.time())}"
+    project_id = api.positive_create_project(title)
+    assert project_id is not None
+    
+    project = api.positive_get_project_id(project_id)
+    assert project["title"] == title
+    
+
+def test_positive_update_project(created_project_id, api):
+    new_title = "Updated Title"
+    updated_id = api.positive_update_project(created_project_id, new_title)
+    
+    
+    assert updated_id == created_project_id
+    
+   
+    project = api.positive_get_project_id(created_project_id)
+    assert project["title"] == new_title
+
+def test_positive_get_project_by_id(created_project_id, api):
+    project = api.positive_get_project_id(created_project_id)
+    assert project is not None
+    assert "title" in project
+
+
+
+def test_negative_create_project_empty_title(api_client):
+
+    resp = api_client.create_project_raw("")
+    
+
+    assert resp.status_code in [400, 404], f"Ожидался 400/422, получен {resp.status_code}"
+    
+    data = resp.json()
+  
+    assert "errors" in data or "message" in data
+
+def test_negative_update_nonexistent_project(api_client):
+    fake_id = 999999
+    new_title = "New Title"
+    
+    resp = api_client.update_project_raw(fake_id, new_title)
+    
+
+    assert resp.status_code == 404, f"Ожидался 404, получен {resp.status_code}"
+
+def test_negative_get_nonexistent_project(api_client):
+    fake_id = 999999
+    
+    resp = api_client.get_project_raw(fake_id)
+    
+    assert resp.status_code == 404
+
     
 
 
