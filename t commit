@@ -1,0 +1,554 @@
+[33mcommit da3cef23b35c95d4495b4c20b35dfd3da729a202[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: a2fb607 7176a02
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Sun Jul 12 19:44:19 2026 +0300
+
+    Merge branch 'main' of https://github.com/gromoverzhetss-cloud/homework_Sergey
+
+[33mcommit a2fb6078237c9566f26868474d771c97112a29e6[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Sun Jul 12 19:27:44 2026 +0300
+
+    9
+
+[33mcommit 0336d207a3186f9e47c847f46e0062646fd30b06[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Sun Jul 12 16:17:03 2026 +0300
+
+    del
+
+[33mcommit 033e7a1c3342779605562da2d38c46c19071c3ab[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Sun Jul 12 16:12:56 2026 +0300
+
+    f
+
+[33mcommit 7176a027dfb2e5e2a0d12a5b90e9ebbd13c17e3f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0cc0dcd 56c5566
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jul 12 14:06:36 2026 +0300
+
+    Merge pull request #19 from gromoverzhetss-cloud/lesson_8
+    
+    Lesson 8.1
+
+[33mcommit 56c55669261f5e150201969dbe95deafd013b9eb[m[33m ([m[1;31morigin/lesson_8[m[33m)[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sat Jul 11 18:10:38 2026 +0300
+
+    Delete 08_lesson/Описание.txt
+
+[33mcommit 1e153b9470119ca191bb020be7c1f2999b15d02c[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sat Jul 11 18:10:24 2026 +0300
+
+    Update PostApi.py
+
+[33mcommit 07c96992073e3a01d2e96a0681d5e5a8024b0359[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sat Jul 11 18:09:49 2026 +0300
+
+    Update test_PostApi.py
+
+[33mcommit baeb92dc5fabb04b8ca62a939430e0da5c2093d6[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Fri Jul 10 15:02:04 2026 +0300
+
+    Update Описание.txt
+
+[33mcommit 5efdb49c8bbd230baf624c5dc3bcdb0c44462fa0[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Fri Jul 10 14:52:28 2026 +0300
+
+    3
+
+[33mcommit 6d972c156b31f700d02cb791d0be3d9ab10d91ea[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Fri Jul 10 14:39:32 2026 +0300
+
+    last commit
+
+[33mcommit 1ba2d1c5113f65e390b551b367b489a4b63fd25e[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:56:36 2026 +0300
+
+    Rename Инструкция.txt to 08_lesson/Positive/Инструкция.txt
+
+[33mcommit 529cf24af5cc655849b3657d5609730af5aa7109[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:55:41 2026 +0300
+
+    Rename test_api.py to 08_lesson/Positive/test_api.py
+
+[33mcommit e7bda691916fa0229f99dc47ca3ed232175e7618[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:55:09 2026 +0300
+
+    Rename api.py to 08_lesson/Positive/api.py
+
+[33mcommit 00a2e1a8896597ba0f8dd687effdbbcf4bcb12c9[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:54:24 2026 +0300
+
+    Rename Описание.txt to 08_lesson/Negative/Описание.txt
+
+[33mcommit 437235f159deabb4e89ab60547b293c7ad087542[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:53:24 2026 +0300
+
+    Add files via upload
+
+[33mcommit bf7bd2f6235b6f2334d1e93d0f1ad4bf4a5d0214[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:52:11 2026 +0300
+
+    Update negative_test_api.py
+
+[33mcommit 1ba376c6c4fc7ffc8deae9fde4ffd0ba7823bc07[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:49:30 2026 +0300
+
+    Create negative_test_api.py
+
+[33mcommit ca12c23322f091cf4904c4609f2fbb7a0f6b96c2[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:47:51 2026 +0300
+
+    Delete lesson_8 directory
+
+[33mcommit 38be30c8b7d50066886fcf8d927e6c06ff790376[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:47:40 2026 +0300
+
+    Delete lesson_1_task_5.py
+
+[33mcommit 20ccdb698993e17e4a398d4db59df4ca380f3d3e[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:47:31 2026 +0300
+
+    Delete lesson_2.py directory
+
+[33mcommit e325d282cdaf612935cbacbab9239322a9b27700[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:47:17 2026 +0300
+
+    Delete pytest.ini
+
+[33mcommit c3341fa3c10d6aa585f67ea831229bbc94e7aaec[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:47:04 2026 +0300
+
+    Delete lesson_1_task_3.py
+
+[33mcommit 63068333b9c55d02fc9e76c6471389b0196cc55b[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:46:54 2026 +0300
+
+    Delete lesson_1_task_2.py
+
+[33mcommit a544967ce2d08ed87ef651494bcc7515475e63d8[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:46:09 2026 +0300
+
+    Delete lesson_1_task_1.py
+
+[33mcommit 9492762bfd9ae175c0cef38265e150ee9b993a69[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:45:43 2026 +0300
+
+    Delete lesson_01 directory
+
+[33mcommit 75fb5efa142ef01398bcadfe1ac6dcead2ea4b61[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:45:20 2026 +0300
+
+    Delete 08_lesson directory
+
+[33mcommit 2c0270463cae5be9c3ef35561b79f7f72ec3a094[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Thu Jul 9 18:39:59 2026 +0300
+
+    ff
+
+[33mcommit ae56fa99bc096e60e3b2738101e4748e6bc25f9d[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Sun Jul 5 13:17:15 2026 +0300
+
+    22
+
+[33mcommit 0cc0dcdd9bb8c017849af2e62cd97bbec6520438[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 30 23:19:13 2026 +0300
+
+    Create test_lesson06_task2.py
+
+[33mcommit 6f767f862836932f57c8c236e3eb00cbf6bef38e[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 30 23:18:24 2026 +0300
+
+    Create test_lesson06_task1.py
+
+[33mcommit 30925af42346da5a354a40203134ea4519bd978d[m
+Merge: 6b0a9ac 625f829
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 30 22:55:29 2026 +0300
+
+    Merge pull request #15 from gromoverzhetss-cloud/lesson7
+    
+    Lesson7
+
+[33mcommit 625f829f11c67172a6cd3cde8da919651f8098b4[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 30 21:18:58 2026 +0300
+
+    Create test_swag_labs.py
+
+[33mcommit bd2a11b2d6b3ab51a96325061c27ab8a903762c1[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 30 21:17:21 2026 +0300
+
+    Create swag_labs_page.py
+
+[33mcommit a3438b2b4a4c8c90f1b7fcb5f30efcc6eac12efe[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Mon Jun 29 21:51:24 2026 +0300
+
+    Update page_calc.py
+
+[33mcommit de6238eccb37cf0b999565e9ed2dab434e3986f1[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Mon Jun 29 21:40:44 2026 +0300
+
+    Create test_calc.py
+
+[33mcommit effdc1f96932a6528e0632b8a54452ab8767d07a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Mon Jun 29 21:39:07 2026 +0300
+
+    Create page_calc.py
+
+[33mcommit cfc8b4691a2a796500ded763d19154fce5c8bf49[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Mon Jun 29 21:37:51 2026 +0300
+
+    Delete page directory
+
+[33mcommit c6bb239879113f9a6848e2e5c1f3a407de1977e4[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Mon Jun 29 21:36:13 2026 +0300
+
+    Create page_calc.py
+
+[33mcommit 72366f2acdd74619b2487811f20b3c002eef1f16[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Mon Jun 29 20:20:20 2026 +0300
+
+    Delete 06_lesson directory
+
+[33mcommit 6b0a9ac9b9f312e54089f02490924abd4ebc5e7f[m
+Merge: eb93312 5fdf10a
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Wed Jun 24 15:22:00 2026 +0300
+
+    Merge pull request #12 from gromoverzhetss-cloud/lesson6K
+    
+    Lesson6 k
+
+[33mcommit 5fdf10a77826488bba81d5fbc860bda938d3f318[m[33m ([m[1;31morigin/lesson6K[m[33m)[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Wed Jun 24 15:19:52 2026 +0300
+
+    Update test_01_form.py
+
+[33mcommit d6835626638232a66b4d08a391f63a65a5e25304[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 23 21:41:55 2026 +0300
+
+    Update test_02_calc.py
+
+[33mcommit 8ae5fce1149a928ba3672fad21a091ad150a1044[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 23 18:48:07 2026 +0300
+
+    Create test_03_shop.py
+
+[33mcommit 5100cb94a43c2f9d063cfaeac2f70c06ba49fa81[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 23 16:56:57 2026 +0300
+
+    Create  test_02_calc.py
+
+[33mcommit 5e0d898e8b4b238c7e9be07d65518beaf5dc097a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Fri Jun 19 12:54:05 2026 +0300
+
+    Update test_01_form.py
+
+[33mcommit 0d993f1fd7fc3064276a46c34c202d13eaf82f00[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Wed Jun 17 20:29:09 2026 +0300
+
+    Create test_01_form.py
+
+[33mcommit 21250a62f51a530b1226ab0fb6f78b14f1c7289b[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 14:22:33 2026 +0300
+
+    Delete README.md
+
+[33mcommit 1802a5c78198c557b0e96a210c055ad71386581a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 14:22:15 2026 +0300
+
+    Delete 02_lesson directory
+
+[33mcommit 398ea8cf669b3ac7cf8e80ecd90f74b9eeadfcd8[m
+Author: Сергей <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 14:08:27 2026 +0300
+
+     lesson6K
+
+[33mcommit eb933126f885f594421a9b7726951bb497d69a5d[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:57:20 2026 +0300
+
+    Create test_lesson05_task3.py
+
+[33mcommit dcae598a980020491bca5ea0d422e3e0075261a0[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:56:24 2026 +0300
+
+    Create test_lesson05_task2.py
+
+[33mcommit 4a0019e51decede59378b070dbb44199acf0de1a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:53:23 2026 +0300
+
+    Create test_lesson05_task1.py
+
+[33mcommit bfee065d008cbef9f811841cacc0a26c0c314b6c[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:49:54 2026 +0300
+
+    Delete test_lesson05_task3.cpython-314-pytest-9.0.3.pyc
+
+[33mcommit 6dd6a7a74dfc5934edab24e3d227ff5096f1b6f9[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:49:45 2026 +0300
+
+    Delete test_lesson05_task2.cpython-314-pytest-9.0.3.pyc
+
+[33mcommit 7fe7eb787d34b91ebc3fdcf6a1671fc86dfdaac5[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:49:34 2026 +0300
+
+    Delete test_lesson05_task1.cpython-314-pytest-9.0.3.pyc
+
+[33mcommit 247a9b295afdb0233f08dcf7fc5895c744d4a498[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:45:10 2026 +0300
+
+    Add files via upload
+
+[33mcommit 4acb782187df0a46a0555fb7be7409b9fb3a9f97[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:43:55 2026 +0300
+
+    Rename test_string_utils.py to 04_lesson/test_string_utils.py
+
+[33mcommit 6f41a8257fb8d5e84d3a614aeca6c7d7fefdc532[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:43:37 2026 +0300
+
+    Rename string_utils.py to 04_lesson/string_utils.py
+
+[33mcommit ca34104e869a9c908498df43f5077ca6e1659f2a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:43:18 2026 +0300
+
+    Rename pytest.ini to 04_lesson/pytest.ini
+
+[33mcommit b0135c0a79a3fd630315617c25e17fbfa4982a9a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:42:52 2026 +0300
+
+    Add files via upload
+
+[33mcommit a9f339b27eee6827f1f194f6673799e133cb3d67[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:41:47 2026 +0300
+
+    Rename user.py to 03_lesson/user.py
+
+[33mcommit 0f768d1f266ee5a524359d548f68009957d002ce[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:41:33 2026 +0300
+
+    Rename smartphone.py to 03_lesson/smartphone.py
+
+[33mcommit b242f045c8fac36774a1c1ac159150a6e73bce7f[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:41:15 2026 +0300
+
+    Rename mailing.py to 03_lesson/mailing.py
+
+[33mcommit db702f11001b04b6bf2842357c95c3d79ab9d7a0[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:40:57 2026 +0300
+
+    Rename lesson_3_task_3.py to 03_lesson/lesson_3_task_3.py
+
+[33mcommit 5e107f6f67314f227c5f6aff46548186ca4374ba[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:40:44 2026 +0300
+
+    Rename lesson_3_task_2.py to 03_lesson/lesson_3_task_2.py
+
+[33mcommit dfb898b8a0343371f3bf1ac4fa7f9f303bb7689d[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:40:29 2026 +0300
+
+    Rename lesson_3_task_1.py to 03_lesson/lesson_3_task_1.py
+
+[33mcommit c4f4a83fa8ae4e5cbc2817d8741958356a410829[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:40:10 2026 +0300
+
+    Rename address.py to 03_lesson/address.py
+
+[33mcommit b5fa5b090c24e5f47f2f27d91d9ea6ecbc403183[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:39:49 2026 +0300
+
+    Add files via upload
+
+[33mcommit e6f6fc6fed0a9ecde7d9fd3c8f9931170137b7a8[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:38:18 2026 +0300
+
+    Rename lesson_2_task_7.py to 02_lesson/lesson_2_task_7.py
+
+[33mcommit 42cf3a5822506a9f7619d7861799b8bb9774acc8[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:38:06 2026 +0300
+
+    Rename lesson_2_task_6.py to 02_lesson/lesson_2_task_6.py
+
+[33mcommit 6b2595b9ce13e8413dc8640a116f796e41efaf2b[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:37:51 2026 +0300
+
+    Rename lesson_2_task_5.py to 02_lesson/lesson_2_task_5.py
+
+[33mcommit ba9f620d21397010c6f899246647453b0966dd5c[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:37:31 2026 +0300
+
+    Rename lesson_2_task_4.py to 02_lesson/lesson_2_task_4.py
+
+[33mcommit 95f28f06a8d7bce8b5c55489c06f25cd5149b42e[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:37:16 2026 +0300
+
+    Rename lesson_2_task_3.py to 02_lesson/lesson_2_task_3.py
+
+[33mcommit 003336ab7fad77a560089f23fe525ab88f1d62c2[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:37:04 2026 +0300
+
+    Rename lesson_2_task_2.py to 02_lesson/lesson_2_task_2.py
+
+[33mcommit 937554b131427bc47d836096b5d2ae5df5ea0325[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:36:48 2026 +0300
+
+    Rename lesson_2_task_1.py to 02_lesson/lesson_2_task_1.py
+
+[33mcommit 97dd97c3716f10dd7266b7cfe602a850185d802a[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:36:03 2026 +0300
+
+    Add files via upload
+
+[33mcommit 90d360603613cad9b2f1095cbfbd806311f99bee[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:34:04 2026 +0300
+
+    Rename lesson_1_task_5.py to lesson_1/lesson_1_task_5.py
+
+[33mcommit cca830439d28a2b32b9dec34af9fce10f63da906[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:33:50 2026 +0300
+
+    Rename lesson_1_task_4.py to lesson_1/lesson_1_task_4.py
+
+[33mcommit 5ae836c92fcfd410230dabfebadd89b92dff1759[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:33:36 2026 +0300
+
+    Rename lesson_1_task_3.py to lesson_1/lesson_1_task_3.py
+
+[33mcommit 2af9732f8a1322426b11b0a9f3db16ac163bb257[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:33:11 2026 +0300
+
+    Rename lesson_1_task_2.py to lesson_1/lesson_1_task_2.py
+
+[33mcommit b1a683eb891dee4204b9babb7280fb734ab699dd[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:32:55 2026 +0300
+
+    Rename lesson_1_task_1.py to lesson_1/lesson_1_task_1.py
+
+[33mcommit 139e51cc7ecc05b1ae3456002ce9afb613be82c3[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:32:08 2026 +0300
+
+    Add files via upload
+
+[33mcommit c8436970823d8aba821c6e74ce86fab34da4ccc6[m
+Merge: a372202 ee101ae
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Tue Jun 16 13:30:36 2026 +0300
+
+    Merge pull request #10 from gromoverzhetss-cloud/lesson6
+    
+    Lesson6
+
+[33mcommit ee101ae0e759f801aabaf5498f8e981aaa5cbe25[m[33m ([m[1;31morigin/lesson6[m[33m, [m[1;32mlesson6[m[33m)[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jun 14 20:05:21 2026 +0300
+
+    Delete lesson_1 directory
+
+[33mcommit 63789d70c2ebaca9fc83d4b9ac09473ffbb0b668[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jun 14 20:05:11 2026 +0300
+
+    Delete 05_lesson directory
+
+[33mcommit c5a2c149ba55a4a260700160a2fbf0e1c84fc471[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jun 14 20:04:57 2026 +0300
+
+    Delete 04_lesson directory
+
+[33mcommit 82d1c603b5a2c814ba2b48f5dbc677222e5a3845[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jun 14 20:04:45 2026 +0300
+
+    Delete 03_lesson directory
+
+[33mcommit cbb018ecedf4409a132b2602a12b699361de933b[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jun 14 20:04:16 2026 +0300
+
+    Delete 02_lesson directory
+
+[33mcommit a3db1b0826b10d540e5a77c515c5abf284643f62[m
+Author: Sergey <gromoverzhetss@mail.ru>
+Date:   Sun Jun 14 20:03:49 2026 +0300
+
+    Update test_lesson06_task2.py
+
+[33mcommit 32b23d955a365638cbd98d2f
