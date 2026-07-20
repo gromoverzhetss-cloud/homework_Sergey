@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class CalculatorPage:
+    """Класс страницы калькулятора для автоматизации тестирования."""
 
     DELAY_INPUT = (By.CSS_SELECTOR, '#delay')
     RESULT_SCREEN = (By.CSS_SELECTOR, ".screen")
@@ -14,6 +15,14 @@ class CalculatorPage:
         self.driver = driver
         self.url = url
         self.wait = WebDriverWait(self.driver, 45)
+         """
+        Инициализирует страницу калькулятора.
+
+        param driver: Экземпляр драйвера Selenium для управления браузером.
+        type driver: selenium.webdriver.remote.webdriver.WebDriver
+        param url: URL-адрес страницы калькулятора.
+        type url: str
+        """
 
     
     def open(self):
@@ -45,3 +54,8 @@ class CalculatorPage:
             self.wait.until(EC.text_to_be_present_in_element(self.RESULT_SCREEN, "15"))
             result_element = self.driver.find_element(*self.RESULT_SCREEN)
             return result_element.text
+            """
+            Получает результат вычисления из экрана калькулятора.
+    
+            return: Текстовое значение результата вычисления.
+            """
