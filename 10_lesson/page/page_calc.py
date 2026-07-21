@@ -14,7 +14,6 @@ class CalculatorPage:
     def __init__(self, driver, url):
         self.driver = driver
         self.url = url
-        self.wait = WebDriverWait(self.driver, 45)
          """
         Инициализирует страницу калькулятора.
 
@@ -51,8 +50,10 @@ class CalculatorPage:
    
     def get_result(self):
         with allure.step("Проверить что в окне отобразится результат 15 через 45 секунд"):
-            self.wait.until(EC.text_to_be_present_in_element(self.RESULT_SCREEN, "15"))
+            WebDriverWait(self.driver, 45).until(
+            EC.text_to_be_present_in_element(self.RESULT_SCREEN, "15"))
             result_element = self.driver.find_element(*self.RESULT_SCREEN)
+            
             return result_element.text
             """
             Получает результат вычисления из экрана калькулятора.
